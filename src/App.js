@@ -12,6 +12,7 @@ import Gallery from './features/Gallery/gallery';
 import OurServices from './features/OurServices/ourservices';
 import ContactVisit from './features/ContactVisit/contactvisit';
 import Location from './features/LocationSection/location';
+import ScrollToTop from './features/ScrollToTop/scrolltotop';
 
 function App() {
   const marciMetzger = "206-919-6886";
@@ -29,6 +30,7 @@ function App() {
       <ContactVisit/>
       <Location/>
       <Footer/>
+      <ScrollToTop/>
     </div>
   );
 }

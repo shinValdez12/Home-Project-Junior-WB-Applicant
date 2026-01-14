@@ -115,3 +115,18 @@
     order: -1;
   }
 }
+
+@media (max-width: 768px) {
+  .contact-form-side {
+    padding: 40px 20px; 
+  }
+
+  .send-btn {
+    width: 100%;
+  }
+
+  .send-btn:hover {
+  background-color: #4a545c;
+  transform: translateY(-2px);
+}
+}
