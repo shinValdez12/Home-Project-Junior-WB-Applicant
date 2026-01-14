@@ -10,7 +10,6 @@
   align-items: center;
   padding: 20px 50px;
   box-sizing: border-box;
-  position: fixed;
 }
 .logo-img {
   filter: brightness(0) invert(1); 

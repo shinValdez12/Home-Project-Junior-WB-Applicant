@@ -28,3 +28,22 @@
     filter: grayscale(0%);
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+    .affiliations-section {
+        padding: 40px 20px;
+        flex-wrap: wrap;
+        gap: 30px; 
+    }
+
+    .affiliations-container {
+        flex: 0 0 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .affiliations-container img {
+        height: 45px;
+        opacity: 0.8;
+    }
+}

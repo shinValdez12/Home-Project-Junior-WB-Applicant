@@ -42,3 +42,37 @@
   font-size: 1.8rem;
   margin-bottom: 15px;
 }
+
+@media (max-width: 768px) {
+  .services-section {
+    padding: 60px 20px;
+  }
+
+  .services-title {
+    font-size: 1.8rem;
+    margin-bottom: 40px;
+  }
+
+  .service-row, 
+  .service-row.reverse {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+
+  .service-text {
+    text-align: center;
+    order: 1;
+  }
+
+  .service-image {
+    order: 2;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .service-text h3 {
+    font-size: 1.5rem;
+  }
+}

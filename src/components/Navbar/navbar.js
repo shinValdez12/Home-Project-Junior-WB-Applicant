@@ -7,9 +7,6 @@ function Navbar() {
             <div className="logo">
                 <img src={logo} alt="Marci Metzger Logo" className="logo-img"/>
             </div>
-            <div className="menu">
-                ☰
-            </div>
         </nav>
     );
 }

@@ -48,3 +48,14 @@
   letter-spacing: 0.5px;
   margin: 0;
 }
+
+@media (max-width: 480px) {
+  .footer-social-row {
+    gap: 15px;
+  }
+
+  .copyright-text {
+    font-size: 0.6rem;
+    padding: 0 10px;
+  }
+}

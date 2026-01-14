@@ -32,3 +32,23 @@
   font-weight: bold;
   letter-spacing: 1px;
 }
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .about-image img {
+    max-width: 280px;
+  }
+
+  .about-content h2 {
+    font-size: 1.8rem;
+  }
+}

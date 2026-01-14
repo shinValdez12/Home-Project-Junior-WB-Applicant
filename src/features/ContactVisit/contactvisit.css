@@ -75,3 +75,38 @@
   color: #777;
   font-style: italic;
 }
+
+@media (max-width: 768px) {
+  .visit-section {
+    padding: 60px 20px;
+  }
+
+  .visit-main-title {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+  }
+
+  .visit-container {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .contact-info-side {
+    text-align: center;
+  }
+
+  .whatsapp-btn {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto 30px auto;
+  }
+
+  .hours-simple {
+    border-left: none;
+    border-top: 2px solid #c5a059;
+    padding-left: 0;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}
