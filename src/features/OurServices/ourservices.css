@@ -1,0 +1,42 @@
+.our-services-section {
+    padding: 80px 5%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services-main-title {
+    font-family: 'Playfair Display', serif;
+    color: #c5a059;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1;
+    max-width: 350px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.service-img.round {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}

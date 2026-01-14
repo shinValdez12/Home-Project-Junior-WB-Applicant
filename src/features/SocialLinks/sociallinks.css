@@ -1,0 +1,32 @@
+.social-footer {
+  background-color: #111;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.social-logo {
+  width: 32px;
+  height: auto;
+  filter: brightness(0) invert(1); 
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-logo:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.footer-heading {
+  color: #c5a059;
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 4px;
+  font-size: 1.8rem;
+  margin-top: 10px;
+}

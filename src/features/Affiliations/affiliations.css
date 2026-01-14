@@ -1,0 +1,30 @@
+.affiliations-section {
+    background-color: #fff;
+    padding: 60px 10%;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+.affiliations-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.affiliations-container img {
+    height: 60px;
+    width: auto;
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: 0.3s ease;
+}
+
+.affiliations-container img:hover {
+    filter: grayscale(0%);
+    opacity: 1;
+}

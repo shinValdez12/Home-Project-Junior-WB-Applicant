@@ -1,0 +1,77 @@
+.visit-section {
+  padding: 80px 10%;
+  background-color: #fff;
+}
+
+.visit-main-title {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #c5a059;
+  letter-spacing: 4px;
+  margin-bottom: 60px;
+}
+
+.visit-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.contact-form-side { flex: 1; }
+.simple-form { display: flex; flex-direction: column; gap: 20px; }
+.simple-form input, .simple-form textarea {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  font-family: inherit;
+}
+
+.send-btn {
+  width: 120px;
+  padding: 12px;
+  background-color: #eee;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.whatsapp-btn {
+  display: inline-block;
+  background-color: #4c626d;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.hours-simple {
+  margin-top: 30px;
+  border-left: 3px solid #c5a059;
+  padding-left: 20px;
+}
+
+.hours-simple h4 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 2px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.status-text {
+  font-size: 1.1rem;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.open-label {
+  font-weight: bold;
+}
+
+.appointment-text {
+  font-size: 0.85rem;
+  color: #777;
+  font-style: italic;
+}
