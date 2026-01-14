@@ -1,5 +1,5 @@
 .about-section {
-  background-color: #000;
+  background-color: #ffffff;
   padding: 80px 10%;
   color: white;
 }
@@ -25,12 +25,19 @@
 .about-content h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+
+.phone {
+  color: black;
 }
 
 .highlight {
   color: #c5a059;
   font-weight: bold;
   letter-spacing: 1px;
+  font-family: 'Playfair Display', serif;
 }
 
 @media (max-width: 768px) {

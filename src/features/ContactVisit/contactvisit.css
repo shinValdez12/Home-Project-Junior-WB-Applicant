@@ -1,112 +1,117 @@
 .visit-section {
-  padding: 80px 10%;
-  background-color: #fff;
+  padding: 100px 5%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .visit-main-title {
-  text-align: center;
-  font-family: 'Playfair Display', serif;
   color: #c5a059;
-  letter-spacing: 4px;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 6px;
   margin-bottom: 60px;
+  z-index: 2;
 }
 
 .visit-container {
   display: flex;
-  justify-content: space-between;
-  gap: 80px;
+  max-width: 1100px;
+  width: 100%;
+  background: white;
+  border-radius: 0 0 80px 0;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.12);
+  overflow: hidden;
+  z-index: 3;
+  background: #ffffff;
 }
 
-.contact-form-side { flex: 1; }
-.simple-form { display: flex; flex-direction: column; gap: 20px; }
-.simple-form input, .simple-form textarea {
+.contact-form-side {
+  flex: 0.6;
+  padding: 60px;
+  background: #fff;
+}
+
+.contact-form-side h3 {
+  color: #1a1e23;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.simple-form input, 
+.simple-form textarea {
+  width: 100%;
   border: none;
   border-bottom: 1px solid #ccc;
-  padding: 10px 0;
+  padding: 15px 0;
+  margin-bottom: 25px;
+  outline: none;
   font-family: inherit;
 }
 
 .send-btn {
-  width: 120px;
-  padding: 12px;
-  background-color: #eee;
+  background-color: #606c76;
+  color: white;
+  padding: 15px 45px;
   border: none;
-  border-radius: 20px;
+  border-radius: 4px;
   cursor: pointer;
-  margin-top: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.info-side {
+  flex: 0.4;
+  background-color: #1a1e23;
+  color: #ffffff;
+  padding: 60px 40px;
+  border-top-left-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .whatsapp-btn {
-  display: inline-block;
-  background-color: #4c626d;
+  background-color: #c5a059;
   color: white;
-  padding: 12px 25px;
-  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
   text-decoration: none;
+  border-radius: 5px;
   font-weight: bold;
-  margin-bottom: 30px;
+  transition: background 0.3s ease;
+}
+
+.whatsapp-btn:hover {
+  background-color: #b18f4d;
+}
+
+.office-details h4 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #c5a059;
 }
 
 .hours-simple {
-  margin-top: 30px;
-  border-left: 3px solid #c5a059;
+  border-left: 2px solid #c5a059;
   padding-left: 20px;
-}
-
-.hours-simple h4 {
-  font-family: 'Playfair Display', serif;
-  letter-spacing: 2px;
-  color: #333;
-  margin-bottom: 10px;
-}
-
-.status-text {
-  font-size: 1.1rem;
-  color: #000;
-  margin-bottom: 5px;
-}
-
-.open-label {
-  font-weight: bold;
-}
-
-.appointment-text {
-  font-size: 0.85rem;
-  color: #777;
-  font-style: italic;
 }
 
 @media (max-width: 768px) {
   .visit-section {
+    background: #f4f4f4;
     padding: 60px 20px;
-  }
-
-  .visit-main-title {
-    font-size: 1.5rem;
-    letter-spacing: 2px;
-    margin-bottom: 40px;
   }
 
   .visit-container {
     flex-direction: column;
-    gap: 50px;
+    border-radius: 20px;
   }
 
-  .contact-info-side {
-    text-align: center;
-  }
-
-  .whatsapp-btn {
-    width: 100%;
-    max-width: 250px;
-    margin: 0 auto 30px auto;
-  }
-
-  .hours-simple {
-    border-left: none;
-    border-top: 2px solid #c5a059;
-    padding-left: 0;
-    padding-top: 20px;
-    margin-top: 20px;
+  .info-side {
+    border-radius: 0;
+    order: -1;
   }
 }

@@ -10,7 +10,6 @@ import Search from './features/Search/search';
 import Affiliations from './features/Affiliations/affiliations';
 import Gallery from './features/Gallery/gallery';
 import OurServices from './features/OurServices/ourservices';
-import SocialLinks from './features/SocialLinks/sociallinks';
 import ContactVisit from './features/ContactVisit/contactvisit';
 import Location from './features/LocationSection/location';
 
@@ -27,7 +26,6 @@ function App() {
       <Affiliations/>
       <Gallery/>
       <OurServices/>
-      <SocialLinks/>
       <ContactVisit/>
       <Location/>
       <Footer/>

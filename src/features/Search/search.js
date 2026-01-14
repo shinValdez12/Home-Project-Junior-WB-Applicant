@@ -68,9 +68,9 @@ function Search() {
                 <div className="filter-item">
                     <label>Max Price</label>
                     <input type="number" placeholder="Max Price"/>
-
-                    <button className="search-now-btn">SEARCH NOW</button>
                 </div>
+
+                <button className="search-now-btn">SEARCH NOW</button>
             </div>
         </section>
     );

@@ -8,6 +8,7 @@ function About({ phoneNumber }) {
                 <div className="about-image">
                     <img src={marciPhoto} alt='MARCI METZGER' />
                 </div>
+                
                 <div className="about-content">
                     <h2>MARCI METZGER</h2>
                     <p className="highlight">REALTOR FOR NEARLY 3 DECADES!</p>
